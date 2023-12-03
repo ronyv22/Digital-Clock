@@ -1,0 +1,73 @@
+
+
+body {
+
+  background-color: black;
+  text-align: center;
+  max-width: 1000px;
+  padding: 1rem;
+  margin: auto;
+}
+
+
+#digital-clock{
+    font-family: 'Digital-7MonoItalic', sans-serif;
+    width: 70%;
+    margin: auto;
+    padding: 0 25px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    background-color: #023E8A;
+    border-style: solid 1px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 200px;
+    overflow: auto;
+    color: #ADE8F4;
+
+}
+
+
+#time {
+    font-size: 8rem;
+    text-shadow: 1px 1px 2px #03045E, 0 0 1px #0077B6, 1px 1px 2px #48CAE4;
+
+}
+
+
+
+
+  #bottom {
+   font-family: 'Digital-7MonoItalic', sans-serif;
+   display: flex;
+   justify-content: space-between; 
+   align-items: center;
+   width: 95%;
+   
+}
+
+
+  .day, .dayOfWeek {
+  font-size: 2.5rem;
+  text-shadow: 1px 1px 2px #03045E, 0 0 1px #0077B6, 1px 1px 2px #48CAE4;
+}
+
+
+
+@font-face {
+    font-family: 'Digital-7MonoItalic';
+    src: url('fonts/Digital-7MonoItalic.eot');
+    src: url('fonts/Digital-7MonoItalic.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Digital-7MonoItalic.woff2') format('woff2'),
+        url('fonts/Digital-7MonoItalic.woff') format('woff'),
+        url('fonts/Digital-7MonoItalic.ttf') format('truetype'),
+        url('fonts/Digital-7MonoItalic.svg#Digital-7MonoItalic') format('svg');
+
+  
+    
+}
+
