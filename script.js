@@ -71,10 +71,6 @@ function updateTime() {
   document.querySelector('#time').textContent = hour + ":" + minute + ":" + second + " " + meridiem;
   document.querySelector('.day').textContent = month[date.getMonth()] + ' ' + dayOfMonth + ', ' + date.getFullYear();
   document.querySelector('.dayOfWeek').textContent = dayOfWeek;
-
-
-//Calls the updateTime function again after on second//
-  setInterval(updateTime, 1000);
 }
 
 
@@ -87,6 +83,5 @@ function update(t) {
   }
 }
 
-
-//Call function//
-updateTime();
+//Calls the updateTime function again after one second//
+  setInterval(updateTime, 1000);
